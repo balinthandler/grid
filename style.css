@@ -1,0 +1,32 @@
+body{
+    margin: 0;
+    padding: 0;
+    border: 0;
+
+}
+#container {
+    background-color: rgb(255, 255, 255);
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
+
+}
+#openDiv {
+    display: block;
+    background-color: rgb(250, 249, 247);
+    border: 1px solid rgb(235, 235, 235);
+    max-width: 600px;
+    min-height: 600px;
+}
+
+.boxContainer{
+    display: flex;
+
+}
+
+.box {
+    display: flex;
+    float: left;
+    background-color: rgb(255, 255, 255);
+
+}
