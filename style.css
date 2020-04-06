@@ -2,31 +2,62 @@ body{
     margin: 0;
     padding: 0;
     border: 0;
-
 }
+
 #container {
     background-color: rgb(255, 255, 255);
     width: 100vw;
     height: 100vh;
     align-items: center;
-
 }
-#openDiv {
-    display: block;
-    background-color: rgb(250, 249, 247);
+
+#navBar {
+    background-color: rgb(73, 67, 55);
     border: 1px solid rgb(235, 235, 235);
-    max-width: 600px;
-    min-height: 600px;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;  
+}
+
+label{
+    color: white;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;   
+}
+
+input {
+    font-size: 24px;
+    height: 50px;
+    width: 100px;
+    margin: 0px 25px 0px 10px;
+    padding: 0;
+    border: 0;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+button{
+    height: 50px;
+    width: 125px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
 }
 
 .boxContainer{
     display: flex;
-
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .box {
     display: flex;
     float: left;
     background-color: rgb(255, 255, 255);
-
 }
