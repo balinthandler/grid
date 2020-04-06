@@ -6,8 +6,8 @@ let regEx = new RegExp(/^[1-9]\d{0,}/);
 
 let labelX = document.createElement('label')
 let labelY = document.createElement('label')
-labelX.textContent = 'COLUMN:';
-labelY.textContent = 'ROW:';
+labelX.textContent = 'ROW:';
+labelY.textContent = 'COLUMN:';
 
 let inputX = document.createElement('input');
 inputX.setAttribute('id', 'x');
@@ -22,9 +22,9 @@ btn.textContent = 'GENERATE';
 let navBar = document.querySelector('#navBar');
 navBar.style.height = barHeight+'px';
 navBar.appendChild(labelX);
-navBar.appendChild(inputX);
-navBar.appendChild(labelY);
 navBar.appendChild(inputY);
+navBar.appendChild(labelY);
+navBar.appendChild(inputX);
 navBar.appendChild(btn);
 
 
