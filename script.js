@@ -29,6 +29,7 @@ navBar.appendChild(btn);
 
 
 let container = document.querySelector('#container');
+
 //--Creating rows--------------------------------------------------------------------------
 function createBoxes() {
     for (j=0; j< inputY.value; j++){   
